@@ -14,8 +14,6 @@ const CompleteAppointments = ({completeAppointment}) => {
             <th className="px-4 py-2 border border-gray-300">Name</th>
             <th className="px-4 py-2 border border-gray-300">Email</th>
             <th className="px-4 py-2 border border-gray-300">Contact</th>
-            <th className="px-4 py-2 border border-gray-300">Date</th>
-            <th className="px-4 py-2 border border-gray-300">Time</th>
             <th className="px-4 py-2 border border-gray-300">Chartered Status</th>
           </tr>
         </thead>
@@ -26,8 +24,6 @@ const CompleteAppointments = ({completeAppointment}) => {
               <td className="border px-4 py-2 text-center">{rec.name}</td>
               <td className="border px-4 py-2 text-center">{rec.email}</td>
               <td className="border px-4 py-2 text-center">{rec.contact}</td>
-              <td className="border px-4 py-2 text-center">{rec.date}</td>
-              <td className="border px-4 py-2 text-center">{rec.time}</td>
               <td className="border px-4 py-2 text-center">{rec.charteredStatus}</td>
             </tr>
           ))}

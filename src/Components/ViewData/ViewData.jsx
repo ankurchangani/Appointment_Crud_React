@@ -14,8 +14,6 @@ const ViewData = ({ storage, handleEdit, PendingRec , handleApproved  , handleCo
                             <th className="px-4 py-2 border border-gray-300">Name</th>
                             <th className="px-4 py-2 border border-gray-300">email</th>
                             <th className="px-4 py-2 border border-gray-300">Contact</th>
-                            <th className="px-4 py-2 border border-gray-300">Date</th>
-                            <th className="px-4 py-2 border border-gray-300">Time</th>
                             <th className="px-4 py-2 border border-gray-300">CharteredStatus</th>
                             <th className="px-4 py-2 border border-gray-300">Action</th>
                         </tr>
@@ -27,8 +25,6 @@ const ViewData = ({ storage, handleEdit, PendingRec , handleApproved  , handleCo
                                 <td className="border px-4 py-2 text-center">{rec.name}</td>
                                 <td className="border px-4 py-2 text-center">{rec.email}</td>
                                 <td className="border px-4 py-2 text-center">{rec.contact}</td>
-                                <td className="border px-4 py-2 text-center">{rec.date}</td>
-                                <td className="border px-4 py-2 text-center">{rec.time}</td>
                                 <td className='border px-4 py-2 text-center'>{rec.charteredStatus}</td>
                                 <td className="text-center">
                                     <button className="mx-2 bg-red-500 text-white p-2 rounded-lg" onClick={() => PendingRec(rec.id)}>

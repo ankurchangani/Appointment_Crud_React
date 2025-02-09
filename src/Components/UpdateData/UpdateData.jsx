@@ -88,39 +88,7 @@ const UpdateData = ({ editData, handleUpdata }) => {
             />
           </div>
 
-          {/* Date */}
-          <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="date">
-              Date
-            </label>
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-400"
-              id="date"
-              type="date"
-              name="date"
-              value={updateData.date}
-              readOnly
-              onChange={handleForm}
-              placeholder="Enter the date"
-            />
-          </div>
-
-          {/* Time */}
-          <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="time">
-              Time
-            </label>
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-400"
-              id="time"
-              type="time"
-              name="time"
-              value={updateData.time}
-              readOnly
-              onChange={handleForm}
-              placeholder="Enter the time"
-            />
-          </div>
+       
 
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="chartered-status">

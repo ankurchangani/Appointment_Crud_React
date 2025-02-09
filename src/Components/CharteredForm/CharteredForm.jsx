@@ -6,10 +6,9 @@ const CharteredForm = ({ handleForm, handlesubmit }) => {
 
     return (
         <>
-            <div className="bg-gray-100 min-h-screen flex items-center justify-center">
+        <div className="bg-gray-100 min-h-screen flex items-center justify-center">
                 <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-lg">
                     <h2 className="text-2xl font-semibold text-blue-900 mb-6">Chartered Accountant Form</h2>
-
                     <form onSubmit={handlesubmit}>
                         <div className="mb-4">
                             <input
@@ -65,35 +64,6 @@ const CharteredForm = ({ handleForm, handlesubmit }) => {
                                 placeholder="Enter your contact number"
                             />
                         </div>
-
-                        <div className="mb-4">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="contact">
-                                Data
-                            </label>
-                            <input
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-400"
-                                id="date"
-                                type="date"
-                                name='date'
-                                onChange={handleForm}
-                                placeholder="Enter your contact number"
-                            />
-                        </div>
-
-                        <div className="mb-4">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="contact">
-                                Time
-                            </label>
-                            <input
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-400"
-                                id="time"
-                                type="time"
-                                name='time'
-                                onChange={handleForm}
-                                placeholder="Enter your contact number"
-                            />
-                        </div>
-
                         <div className="mb-4">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="chartered-status">
                                 Chartered Status
@@ -128,5 +98,4 @@ const CharteredForm = ({ handleForm, handlesubmit }) => {
         </>
     )
 }
-
 export default CharteredForm
